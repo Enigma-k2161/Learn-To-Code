@@ -1,4 +1,4 @@
-#1
+//Write a C Program to print "Hello World!" and "Welcome to Learn To Code!" in two separate lines
 
 #include <stdio.h>
 int main() 
@@ -7,7 +7,7 @@ int main()
     return 0;
 }
 
-#2
+//Write a C Program to perform Read and Print operations using the four basic data types in C. (int, float, char & double)
 
 #include <stdio.h>
 int main() {
