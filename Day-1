@@ -1,0 +1,30 @@
+#1
+
+#include <stdio.h>
+int main() 
+{
+    printf("Hello World!\nWelcome to Learn To Code!");
+    return 0;
+}
+
+#2
+
+#include <stdio.h>
+int main() {
+    char x;
+    int y;
+    float z;
+    double a;
+    
+    scanf("%c", &x);
+    scanf("%d", &y);
+    scanf("%f", &z);
+    scanf("%lf", &a);
+    
+    printf("%c\n",x);
+    printf("%d\n",y);
+    printf("%f\n",z);
+    printf("%lf\n",a);
+}
+
+    
