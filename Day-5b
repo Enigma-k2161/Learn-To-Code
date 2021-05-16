@@ -1,0 +1,22 @@
+// Write a C Program to determine the factorial of a number.
+
+Input Format
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int i, n, f=1;
+    
+    scanf("%d", &n);
+    if(n<0)
+    printf("ERROR");
+    else
+    {
+    for(i=1;i<=n; i++)
+    f=f*i;
+    printf("%d",f);
+    }
+    return 0;
+}
